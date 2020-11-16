@@ -1,0 +1,4 @@
+name: EmeraldSolution
+version: ${project.version}
+main: me.john.amiscaray.emeraldsolution.EmeraldSolution
+api-version: 1.16

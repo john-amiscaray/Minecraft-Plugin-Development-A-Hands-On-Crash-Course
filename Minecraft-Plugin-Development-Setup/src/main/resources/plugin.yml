@@ -1,0 +1,4 @@
+name: MinecraftPluginDevelopmentTutorial
+version: ${project.version}
+main: me.john.amiscaray.minecraftplugindevelopmenttutorial.MinecraftPluginDevelopmentTutorial
+api-version: 1.16

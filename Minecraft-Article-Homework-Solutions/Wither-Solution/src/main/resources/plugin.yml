@@ -1,0 +1,13 @@
+name: WitherSolution
+version: ${project.version}
+main: me.john.amiscaray.withersolution.WitherSolution
+api-version: 1.16
+commands:
+  continuous_wither_spawn:
+    description: Continuously spawns withers on a fixed interval. Intervals are given in ticks.
+    usage: /<command> <initDelay> <spawnDelay> (x) (y) (z)
+    aliases: [wither, unleash_hell]
+  stop_withers:
+    description: Stops withers from spawning due to the continuous_wither_spawn command
+    usage: /<command>
+    aliases: [stop_plz, chicken_out]

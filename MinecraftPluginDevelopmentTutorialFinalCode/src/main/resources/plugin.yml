@@ -1,0 +1,17 @@
+name: MinecraftPluginDevelopmentTutorialFinalCode
+version: ${project.version}
+main: me.john.amiscaray.minecraftplugindevelopmenttutorialfinalcode.MinecraftPluginTutorialFinal
+api-version: 1.16
+# defining our commands.
+commands:
+  # create a new command called mark-location.
+  mark-location:
+    description: create a 50 block tall cobblestone tower to mark a location
+    # show to the player how they should call the command. You would also show arguments here.
+    usage: /<command>
+    # create other names we can call the command by.
+    aliases: [mark, tower]
+  continuous-wither-spawn:
+    description: Continuously spawns withers on a fixed interval. Intervals are given in ticks.
+    usage: /<command> <initDelay> <spawnDelay>
+    aliases: [ wither, unleash_hell ]
